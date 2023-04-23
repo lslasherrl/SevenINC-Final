@@ -1,6 +1,7 @@
 Primeiramente obrigado pela oportunidade, o projeto contem 2 pastas backend/frontend devem ser colocadas em uma unica pasta e ser iniciada.
-Banco de dados feito com MYSQL Feito como pedido pelo Documento enviado para mim. Codigo do MySQL:
+Banco de dados feito com MYSQL Feito como pedido pelo Documento enviado para mim fiz pensando em uma pessoa autorizada fazendo o cadastro de um funcionario no banco da empresa.
 
+Codigo do MySQL:
 create database SevenINC; 
 use SevenINC; 
 CREATE TABLE Funcionarios ( ID int not null auto_increment primary key, Name varchar(10) not null, Document varchar(11) not null, Email varchar(320) not null, Birth_date date not null, Salary decimal not null, created_at date not null ); 
